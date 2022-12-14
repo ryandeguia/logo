@@ -39,6 +39,7 @@ ul a {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 20rem;
   margin-top: 5rem;
+  gap: 1rem;
 }
 .img-container {
   display: flex;
@@ -110,7 +111,7 @@ img {
 
 /* mobile-reponsive */
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   * {
     padding: 0;
     margin: 0;
@@ -138,7 +139,7 @@ img {
     display: flex;
     border: 1px solid black;
     border-radius: 0 0.5rem 0 0;
-    width: 20rem;
+    width: 22.5rem;
     height: 15rem;
   }
   .grid-container-2 {
@@ -156,7 +157,7 @@ img {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    width: 24.5rem;
+    width: 24rem;
     margin: 0 2rem;
   }
   ul a {
@@ -184,7 +185,7 @@ img {
     flex-flow: column wrap;
     position: relative;
     top: 2rem;
-    left: 16rem;
+    left: 14rem;
     gap: 1rem;
     align-items: flex-end;
   }
